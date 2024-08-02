@@ -18,7 +18,7 @@ def bus():
               a.remove(c)
               
            else:
-              print('Error: Seat not available')
+              print('Error: Seat already booked')
               print(a)
               c = int(input('Seat no.:'))
               print('Seat booked Successfully')
